@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.todo-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.item-name {
+  font-size: 17px;
+  color: #000000;
+  font-family: 'Roboto';
+  margin-right: 40px;
+}
+.btn {
+  border-radius: 10px;
+  background-color: transparent;
+  color: #ff0b37;
+  outline: none;
+  cursor: pointer;
+  border: solid #ff8542 1px;
+  height: 30px;
+  width: 90px;
+}
